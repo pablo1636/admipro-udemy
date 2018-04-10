@@ -8,6 +8,7 @@ import {
   SidebarService,
   SharedService,
   UsuarioService,
+  AdminGuard,
   LoginGuardGuard,
   SubirArchivoService,
   HospitalService,
@@ -29,7 +30,8 @@ import {
   SubirArchivoService,
   ModalUploadService,
   HospitalService,
-  MedicoService
+  MedicoService,
+  AdminGuard
   ],
   declarations: []
 })
